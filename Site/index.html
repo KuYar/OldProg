@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+<script language="JavaScript">
+var id = 0;
+var position = 0;
+var speed = 60; //Скорость
+function scrolling() {
+  var text = "      The BEST SITE ABOUT A JOKER!";
+  var k = (60 / text.length)+0.1;
+  for(var i = 0; i <= k; i++)
+    text += " " + text;
+  document.scrollingbutton.but.value = text.substring(position,position+60);
+  position++;
+  if(position == text.length) position=0;
+  id = setTimeout("scrolling()", speed);
+}
+</script>
+<meta charset="utf-8" />
+<link rel="SHORTCUT ICON" href="Images/1234.ico" type="image/x-icon">
+<link rel="stylesheet" href="my.css">
+<title>JokerHistory</title>
+<style>
+ @import url("my.css");
+</style>
+<style>
+@import url("menu.css")
+</style>
+</head>
+
+
+<body onload = "scrolling()">
+
+<form name="scrollingbutton">
+  <input id="scroll" name = "but" value="M">
+</form>
+
+<div id="center"><p><img src="images/1.png" alt="Logo" height="300" width="300"></p></div>
+
+<nav>
+    <ul>
+      <li><a href="History.html">History</a></li>
+      <li><a href="Photo.html">Photo</a></li>
+      <li><a href="Video.html">Video</a></li>
+      <li><a href="Comics.html">Comics</a></li>
+    </ul>
+</nav>
+
+<div id="parent_popup">
+  <div id="popup">
+  <div id="bl2">
+  <div id="center3">
+    <b>Вітаю тебе на моєму сайті!</b>
+	</div>
+	</div>
+	<div id="center2">
+	<div id="bl1">
+    <b style="cursor: pointer;" onclick="document.getElementById('parent_popup').style.display='none';">Закрити</b> 
+	</div>
+	</div>
+  </div>
+</div>
+
+<div id="down2">
+ ©Kuziv Yaroslav
+</div>
+
+</body>
+</html>

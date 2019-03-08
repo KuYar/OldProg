@@ -1,0 +1,222 @@
+/*Задній фон*/
+body {
+  background: url("Images/Без имени-1.jpg") no-repeat top center;
+  background-size: cover;
+}
+/*Логотип*/
+#logo{
+	float:left;
+	width: 115px;
+	height: 115px;
+}
+/*Привітання*/
+#parent_popup {
+  background: #000;
+  height: 100%;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+#popup {
+  background-color: purple;
+  height: 65px;
+  position: fixed;
+  top: 250px;
+  left: 40%;
+  color: black;
+  width: 300px;
+}
+#bl1{
+	background-color:white;
+	height: 21px;
+	position:fixed;
+	top: 282px;
+	left: 48%;
+	width: 76px;
+	box-shadow: 1px 1px 1px #000000;
+	transition: 0.5s ease-in-out;
+}
+#bl2{
+	background-color:white;
+	height: 25px;
+	position:fixed;
+	top: 250px;
+	left: 40%;
+	width: 300px;
+}
+/*Привітання*/
+#mid{
+  position: fixed;
+  top: 100px;
+  left: 15%;
+  border: 3px solid red;
+  width:500px;
+  height:300px;
+}
+#mid2{
+  position: fixed;
+  top: 100px;
+  left: 60%;
+  border: 3px solid red;
+  width:500px;
+  height:300px;
+}
+/*Автор*/
+#down{
+  font-size: 18px;
+  position: fixed;
+  bottom: 255px;
+  left: 0.5%;
+  color: white;
+}
+#down2{
+  font-size: 18px;
+  position: fixed;
+  bottom: 240px;
+  left: 45.5%;
+  color: white;
+}
+/*Анімація яка приближає логотип*/
+#zoom a{
+	position: relative; 
+	top: 2px; 
+	left: 3px; 
+	float: left;
+}
+#zoom a:hover{
+	transform:scale(1.05); 
+}
+/* Фото */
+#img{
+  position: fixed;
+  top: 60px;
+  left: 15%;
+  box-shadow: 0 0 7px 2px;
+  height:225px;
+  width:325px;
+}
+#img2{
+  position: fixed;
+  top: 60px;
+  left: 45%;
+  box-shadow: 0 0 7px 2px;
+  height:225px;
+  width:325px;
+}
+#img3{
+  position: fixed;
+  top: 60px;
+  left: 75%;
+  box-shadow: 0 0 7px 2px;
+  height:225px;
+  width:325px;
+}
+#img4{
+  position: fixed;
+  bottom: 80px;
+  left: 15%;
+  box-shadow: 0 0 7px 2px;
+  height:225px;
+  width:325px;
+}
+#img5{
+  position: fixed;
+  bottom: 80px;
+  left: 45%;
+  box-shadow: 0 0 7px 2px;
+  height:225px;
+  width:325px;
+}
+#img6{
+  position: fixed;
+  bottom: 80px;
+  left: 75%;
+  box-shadow: 0 0 7px 2px;
+  height:225px;
+  width:325px;
+}
+/* Позиція */
+#poz{
+  position: fixed;
+  bottom: 220px;
+  left: 2.7%;
+  display: block;
+  background: purple;
+  border: 1px solid green;
+}
+/* Розташування фото на стор з Коміксом */
+#but{
+  position: absolute;
+  bottom: 280px;
+  left: 52%;
+  z-index: 2;
+  height:100px;
+  width:100px;
+  cursor:pointer;
+  opacity: 0.2;
+  transition: all 0.5s ease-out;
+}
+#but:hover{
+	transform: scale(1.05);
+	opacity: 1;
+}
+#roz{
+  position: absolute;
+  top: 35px;
+  left: 21%;
+  box-shadow: 0 0 10px 2px #3600b3;
+  z-index: 1;
+  width:475px;
+  height:600px;
+}
+#roz2{
+  position: absolute;
+  top: 35px;
+  left: 55%;
+  box-shadow: 0 0 10px 2px #3600b3;
+  z-index:0;
+  width:475px;
+  height:600px;
+}
+/* Вирівнювання по центру */
+#center{
+   margin: 0 auto;
+   width: 300px;
+}
+#center2{
+   text-align:center;
+   margin: 0 auto;
+   width: 76px;
+}
+#center3{
+   text-align: center;
+   padding-bottom: 50px;
+   width: 300px;
+}
+/* Текст */
+#TEXT{
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	font-size:18px;
+}
+
+#BLOCK{
+	display:block;
+	background: rgba(15, 2, 201, 0.2);
+	height: 640px;
+	width: 1200px;
+	position: fixed;
+	top: 0;
+	left: 150px;
+	right: 600px;
+}
+#scroll{
+	display: block;
+	top:300px;
+	width: 300px;
+}
+/* Кінець)) */

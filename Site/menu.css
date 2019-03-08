@@ -1,0 +1,36 @@
+nav {
+  display: block;
+  position: relative;
+}
+ul {
+  width: 680px;
+  background: #4B0082;
+  margin: auto;
+  padding-left: 0;
+  list-style: none;
+  overflow: hidden;
+  border: 1px solid orange;
+}
+li {
+  float: left;
+  width: 25%;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 0.5em 0;
+  font-size: 2em;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+  font-family: monospace;
+}
+a:hover {
+  color: #800080;
+}
+ul:hover{
+	transition:1s;
+	border: 1px solid green;
+}
+
